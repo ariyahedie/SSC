@@ -1,0 +1,173 @@
+/* body {
+  padding: 0;
+  margin: 0;
+} */
+
+.header {
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.dropdown {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: auto;
+  height: auto;
+  z-index: 100;
+  /* border: 2px solid greenyellow; */
+}
+
+.logo {
+  height: 160px;
+  width: 160px;
+  display: block;
+}
+
+.menu {
+  width: 100%;
+}
+
+.carousel {
+  height: 100%;
+  margin: 0;
+  z-index: 0;
+}
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  z-index: 100;
+}
+
+.content {
+  padding: 0 40px;
+  padding-bottom: 50px;
+  /* border: 2px solid red; */
+}
+
+.item {
+  max-height: 100vh;
+}
+
+.tab-item {
+  padding: 10px;
+  margin: 0;
+  font-size: 130%;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: rgb(0, 95, 153);
+  color: white;
+}
+
+.card {
+  width: auto;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card-body {
+  text-align: center;
+  min-height: 200px;
+}
+
+.card-body p {
+  margin: 1px;
+}
+
+.tab {
+  padding: 0;
+  margin: 0 10px;
+}
+
+.row {
+  padding: 0 40px;
+  margin: 25px 0px;
+}
+
+.grid {
+  padding: 20px 0px;
+}
+
+.news {
+  position: static;
+  padding: 0px;
+  margin: 0 55px;
+}
+
+.news-title {
+  font-size: 150%;
+  text-align: center;
+  background-color: rgb(0, 95, 153);
+  color: white;
+  /* border: 2px solid yellow; */
+}
+
+.square {
+  padding: 0;
+  /* border: 2px solid goldenrod; */
+}
+
+.square p {
+  padding: 5px;
+}
+
+.upcoming-news {
+  text-align: center;
+  /* border: 2px solid hotpink; */
+  height: 100%;
+}
+
+.news .row {
+  padding: 0;
+}
+
+.main-news {
+  padding: 10px 20px;
+}
+
+.information {
+  padding: 0;
+}
+
+#maps {
+  margin: 0px;
+}
+
+.btn {
+  background-color: rgb(0, 95, 153);
+  color: white;
+}
+
+.list-unstyled a {
+  color: black;
+}
+
+.links {
+  padding: 25px 10px;
+}
+
+.label {
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.news-card {
+  width: auto;
+  margin: 0;
+  border-left: 5px solid rgb(0, 95, 153);
+}
+
+.news-card-text {
+  text-align: left;
+}
